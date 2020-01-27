@@ -1,0 +1,7 @@
+.Header {
+  height: 10.732vh;
+}
+
+.Header > h1 {
+  color: white;
+}

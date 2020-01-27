@@ -1,0 +1,31 @@
+.Card {
+  margin-bottom: .5rem;
+  display: flex;
+  justify-content: start;
+  padding: 0.5rem;
+}
+
+.Card > .labels {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Card > .cardTitle {
+  display: flex;
+  margin: .25rem 0;
+}
+
+.Card > .cardTitle > h1 {
+  font-size: medium;
+  font-weight: 600;
+  margin: 0;
+}
+
+.Card > .cardDescription {
+  display: flex;
+}
+
+.Card > .cardDescription > p {
+  margin: 0;
+  font-size: small;
+}

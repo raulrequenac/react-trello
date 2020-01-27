@@ -1,0 +1,37 @@
+.Column {
+  margin: .5rem;
+  height: fit-content;
+  min-width: 13rem !important;
+  max-height: 30rem;
+  background-color: rgb(243, 241, 241) !important;
+  align-items: flex-start;
+  padding: .5rem;
+}
+
+.Column > h1 {
+  font-size: medium;
+  margin-left: .5rem; 
+}
+
+.Column > .column-content {
+  overflow-y: auto;
+  width: 100%;
+}
+
+.Column > .column-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.Column > .column-content::-webkit-scrollbar-track {
+  background: rgba(0,0,0,.125);
+  border-radius: 5px;
+}
+
+.Column > .column-content::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,.125);
+  border-radius: 5px;
+}
+
+.Column > .column-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(0,0,0,.25);
+}

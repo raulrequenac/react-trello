@@ -1,0 +1,8 @@
+.NewCard {
+  display: flex;
+  margin-left: .5rem;
+}
+
+.NewCard > .add {
+  color: grey;
+}
